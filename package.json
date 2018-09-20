@@ -1,0 +1,31 @@
+{
+  "name": "aws_cognito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --require dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.27",
+    "aws-sdk": "^2.318.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "debug": "^4.0.1",
+    "dotenv": "^4.0.0",
+    "event": "^1.0.0",
+    "events": "^3.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "jwk-to-pem": "^2.0.0",
+    "mysql2": "^1.6.1",
+    "node-fetch": "^2.2.0",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0",
+    "sequelize": "^4.38.1",
+    "sequelize-cli": "^4.1.1"
+  }
+}
